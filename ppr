@@ -1,0 +1,68 @@
+
+OQ: What are some examples of great code?
+
+This:
+
+10 PRINT “Hello World!” 
+The humble “hello world” program. It has been used as the introductory program in every language.
+It tells you whether the language is procedural:
+
+#include <stdio.h> 
+ 
+int main() { 
+	printf("Hello World!"); 
+	return 0; 
+} 
+or object oriented:
+
+using System;  
+ 
+namespace MyFirstProgram {  
+	public class Greeter {  
+		static void Main() {  
+			Console.WriteLine("Hello World!"); 
+		} 
+	} 
+} 
+It is used as the basis for explaining the basics of the language facilities, it’s tool chain and execution.
+
+For as long as there is a console, “hello world” will be there
+
+Sponsored by Filestack
+Copyright Detection Made Easy.
+This API will help you to avoid infringing on the copyright protection and protect your online content.
+Profile photo for Warren Weber
+Warren Weber
+Fifty Plus Years a ProgrammerAuthor has 397 answers and 21.6K answer viewsMay 28
+Originally Answered: What are some examples of high-quality code?
+Anything that does what it’s supposed to do, efficiently, quickly and totally.
+
+Good example: GIMP image software. Slow to load because it’s massive, but once it does, it will do anything and everything image related, very quickly and correctly.
+
+Bad example: HP Printer software. Slow to load, slow to activate, slow to print, slow to die the hideous and gruesome death that it rightfully deserves. Use something else, anything else; hand copying with pen and paper is faster.
+Profile photo for David
+David
+Lives in Manhattan (2009–present)1y
+<html> 
+	<body> 
+		<style> 
+			#myoutput 
+			{ 
+					color: black; 
+					font-style: italic; 
+					text-transform: uppercase;			 
+					font-weight: 800; 
+			} 
+			.output 
+			{ 
+					text-transform: uppercase;			 
+			}	 
+		</style> 
+ 
+ 
+		<div class="output"> output: <br> 
+				<p id="myoutput">"hello world"</p> 
+		</div> 
+ 
+	</body> 
+</html> 
