@@ -1,23 +1,4 @@
 
-OQ: What are some examples of great code?
-
-This:
-
-10 PRINT “Hello World!” 
-The humble “hello world” program. It has been used as the introductory program in every language.
-It tells you whether the language is procedural:
-
-#include <stdio.h> 
- 
-int main() { 
-	printf("Hello World!"); 
-	return 0; 
-} 
-or object oriented:
-
-using System;  
- 
-namespace MyFirstProgram {  
 	public class Greeter {  
 		static void Main() {  
 			Console.WriteLine("Hello World!"); 
